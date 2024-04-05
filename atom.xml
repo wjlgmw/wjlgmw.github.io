@@ -3,11 +3,11 @@
   <title>繁星、博客</title>
   
   <subtitle>所念皆星河，满眼皆是你</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://wjlgmw.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2024-04-04T05:08:40.758Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://wjlgmw.github.io/"/>
+  <updated>2024-04-05T10:33:31.051Z</updated>
+  <id>http://wjlgmw.github.io/</id>
   
   <author>
     <name>繁星</name>
@@ -17,9 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>打印图形</title>
+    <link href="http://wjlgmw.github.io/posts/undefined.html"/>
+    <id>http://wjlgmw.github.io/posts/undefined.html</id>
+    <published>2024-04-05T10:32:08.000Z</published>
+    <updated>2024-04-05T10:33:31.051Z</updated>
+    
+    <content type="html"><![CDATA[<p>111111</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;111111&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="前端" scheme="http://wjlgmw.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阳光不燥，微风正好</title>
+    <link href="http://wjlgmw.github.io/posts/9520.html"/>
+    <id>http://wjlgmw.github.io/posts/9520.html</id>
+    <published>2024-04-04T18:52:50.000Z</published>
+    <updated>2024-04-04T20:16:52.954Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="夏至"><a href="#夏至" class="headerlink" title="夏至"></a>夏至</h1><blockquote><p>一生的时间很短<br>  短到不过是两颗心之间的距离<br>  一生的时间也很长<br>  不如我们试着走走看<br>  所念皆星河<br>  满眼皆是你</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;夏至&quot;&gt;&lt;a href=&quot;#夏至&quot; class=&quot;headerlink&quot; title=&quot;夏至&quot;&gt;&lt;/a&gt;夏至&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;一生的时间很短&lt;br&gt;  短到不过是两颗心之间的距离&lt;br&gt;  一生的时间也很长&lt;br&gt;  不如我们试着走走看&lt;b</summary>
+      
+    
+    
+    
+    
+    <category term="生活" scheme="http://wjlgmw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/16107.html"/>
-    <id>http://example.com/posts/16107.html</id>
+    <link href="http://wjlgmw.github.io/posts/16107.html"/>
+    <id>http://wjlgmw.github.io/posts/16107.html</id>
     <published>2024-04-04T04:27:09.059Z</published>
     <updated>2024-04-04T05:08:40.758Z</updated>
     
