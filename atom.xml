@@ -6,7 +6,7 @@
   <link href="http://wjlgmw.github.io/atom.xml" rel="self"/>
   
   <link href="http://wjlgmw.github.io/"/>
-  <updated>2024-04-06T16:02:42.161Z</updated>
+  <updated>2024-04-07T08:12:54.573Z</updated>
   <id>http://wjlgmw.github.io/</id>
   
   <author>
@@ -18,20 +18,22 @@
   
   <entry>
     <title>打印图形</title>
-    <link href="http://wjlgmw.github.io/posts/undefined.html"/>
-    <id>http://wjlgmw.github.io/posts/undefined.html</id>
+    <link href="http://wjlgmw.github.io/posts/b9cfe67b.html"/>
+    <id>http://wjlgmw.github.io/posts/b9cfe67b.html</id>
     <published>2024-04-05T10:32:08.000Z</published>
-    <updated>2024-04-06T16:02:42.161Z</updated>
+    <updated>2024-04-07T08:12:54.573Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="打印三角形"><a href="#打印三角形" class="headerlink" title="打印三角形"></a>打印三角形</h1><div class="tip "><p>代码如下:<br> for (a=1;a&lt;=5;a++){ //列数<br>            for (b=1;b&lt;7-a;b++){//每一行的空格<br>                document.write(“”) // 空格里面是 &amp;+emsp;<br>            }<br>            for (c=1;c&lt;=a;c++){<br>                document.write(“*”) //空格里面是 &amp;+emsp;<br>            }<br>            document.write(“”) 空格里面是 br;<br>        }</p></div><p>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqBPpQ.png'></p><h1 id="打印平行四边形"><a href="#打印平行四边形" class="headerlink" title="打印平行四边形"></a>打印平行四边形</h1><div class="tip "><p>代码如下:<br>for(a=1;a&lt;=5;a++){<br>            for (b=1;b&lt;7-a;b++){<br>                document.write(“”)  //空格里面是 &amp;+emsp<br>            }<br>            for (c=1;c&lt;=5;c++){<br>                document.write(“*”) //空格里面是 &amp;+emsp<br>            }</p><pre><code>        document.write(&quot;&lt;br&gt;&quot;) //空格里面是 br    }</code></pre></div><p>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqBlc9.png'></p><h1 id="打印菱形"><a href="#打印菱形" class="headerlink" title="打印菱形"></a>打印菱形</h1><div class="tip "><p>代码如下:<br>  for(a=1;a&lt;=3;a++){<br>            for (b=1;b&lt;7-a;b++){<br>                document.write(“”)  //空格里面是 &amp;+emsp<br>            }<br>            for(c=1;c&lt;=a<em>2-1;c++){<br>               document.write(“</em> “)<br>            }<br>            document.write(“<br>“) //空格里面是 br<br>        }<br>        for(a=1;a&lt;=2;a++){<br>            for (b=1;b&lt;=a+3;b++){<br>                document.write(“”) //空格里面是 &amp;+emsp<br>            }<br>            for(c=1;c&lt;=5-a<em>2;c++){<br>               document.write(“</em> “)<br>            }<br>            document.write(“”) //空格里面是 br<br>        }</p></div><p>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqB1XR.png'></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="打印三角形"><a href="#打印三角形" class="headerlink" title="打印三角形"></a>打印三角形</h1><p>代码如下:<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (a=<span class="number">1</span>;a&lt;=<span class="number">5</span>;a++)&#123; <span class="comment">//列数</span></span><br><span class="line">           <span class="keyword">for</span> (b=<span class="number">1</span>;b&lt;<span class="number">7</span>-a;b++)&#123;<span class="comment">//每一行的空格</span></span><br><span class="line">               <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&amp;emsp;&quot;</span>) ;</span><br><span class="line">           &#125;</span><br><span class="line">           <span class="keyword">for</span> (c=<span class="number">1</span>;c&lt;=a;c++)&#123;</span><br><span class="line">               <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;* &amp;emsp;&quot;</span>);</span><br><span class="line">           &#125;</span><br><span class="line">           <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;br&gt;&quot;</span>);</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure><br>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqBPpQ.png'></p><h1 id="打印平行四边形"><a href="#打印平行四边形" class="headerlink" title="打印平行四边形"></a>打印平行四边形</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(a=<span class="number">1</span>;a&lt;=<span class="number">5</span>;a++)&#123;</span><br><span class="line">            <span class="keyword">for</span> (b=<span class="number">1</span>;b&lt;<span class="number">7</span>-a;b++)&#123;</span><br><span class="line">                <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&amp;emsp;&quot;</span>)</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (c=<span class="number">1</span>;c&lt;=<span class="number">5</span>;c++)&#123;</span><br><span class="line">                <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;* &amp;emsp;&quot;</span>)</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">            <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;br&gt;&quot;</span>)</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><p>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqBlc9.png'></p><h1 id="打印菱形"><a href="#打印菱形" class="headerlink" title="打印菱形"></a>打印菱形</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(a=<span class="number">1</span>;a&lt;=<span class="number">3</span>;a++)&#123;</span><br><span class="line">        <span class="keyword">for</span> (b=<span class="number">1</span>;b&lt;<span class="number">7</span>-a;b++)&#123;</span><br><span class="line">            <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&amp;emsp;&quot;</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(c=<span class="number">1</span>;c&lt;=a*<span class="number">2</span>-<span class="number">1</span>;c++)&#123;</span><br><span class="line">           <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;* &quot;</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;br&gt;&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(a=<span class="number">1</span>;a&lt;=<span class="number">2</span>;a++)&#123;</span><br><span class="line">        <span class="keyword">for</span> (b=<span class="number">1</span>;b&lt;=a+<span class="number">3</span>;b++)&#123;</span><br><span class="line">            <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&amp;emsp;&quot;</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(c=<span class="number">1</span>;c&lt;=<span class="number">5</span>-a*<span class="number">2</span>;c++)&#123;</span><br><span class="line">           <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;* &quot;</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;br&gt;&quot;</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>效果如下：<br><img src='https://s21.ax1x.com/2024/04/06/pFqB1XR.png'></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;打印三角形&quot;&gt;&lt;a href=&quot;#打印三角形&quot; class=&quot;headerlink&quot; title=&quot;打印三角形&quot;&gt;&lt;/a&gt;打印三角形&lt;/h1&gt;&lt;div class=&quot;tip &quot;&gt;&lt;p&gt;代码如下:&lt;br&gt; for (a=1;a&amp;lt;=5;a++){ //列数&lt;br</summary>
+    <summary type="html">&lt;h1 id=&quot;打印三角形&quot;&gt;&lt;a href=&quot;#打印三角形&quot; class=&quot;headerlink&quot; title=&quot;打印三角形&quot;&gt;&lt;/a&gt;打印三角形&lt;/h1&gt;&lt;p&gt;代码如下:&lt;br&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class</summary>
       
     
     
+    
+    <category term="前端js" scheme="http://wjlgmw.github.io/categories/%E5%89%8D%E7%AB%AFjs/"/>
     
     
     <category term="前端" scheme="http://wjlgmw.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
@@ -43,7 +45,7 @@
     <link href="http://wjlgmw.github.io/posts/9520.html"/>
     <id>http://wjlgmw.github.io/posts/9520.html</id>
     <published>2024-04-04T18:52:50.000Z</published>
-    <updated>2024-04-06T16:00:20.121Z</updated>
+    <updated>2024-04-07T04:06:03.872Z</updated>
     
     <content type="html"><![CDATA[<h1 id="夏至"><a href="#夏至" class="headerlink" title="夏至"></a>夏至</h1><blockquote><p>一生的时间很短<br>  短到不过是两颗心之间的距离<br>  一生的时间也很长<br>  不如我们试着走走看<br>  所念皆星河<br>  满眼皆是你</p></blockquote>]]></content>
     
@@ -56,28 +58,10 @@
     
     
     
+    <category term="生活" scheme="http://wjlgmw.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
     
     <category term="生活" scheme="http://wjlgmw.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://wjlgmw.github.io/posts/16107.html"/>
-    <id>http://wjlgmw.github.io/posts/16107.html</id>
-    <published>2024-04-04T04:27:09.059Z</published>
-    <updated>2024-04-04T05:08:40.758Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   

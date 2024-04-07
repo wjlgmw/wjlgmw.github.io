@@ -2,9 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wjlgmw.github.io/posts/undefined.html</loc>
+    <loc>http://wjlgmw.github.io/fcircle/index.html</loc>
     
-    <lastmod>2024-04-06</lastmod>
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/artitalk/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/about/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/posts/b9cfe67b.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/music/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +58,25 @@
   <url>
     <loc>http://wjlgmw.github.io/posts/9520.html</loc>
     
-    <lastmod>2024-04-06</lastmod>
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/link/index.html</loc>
+    
+    <lastmod>2024-04-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -28,19 +91,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://wjlgmw.github.io/posts/16107.html</loc>
-    
-    <lastmod>2024-04-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://wjlgmw.github.io/</loc>
-    <lastmod>2024-04-06</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,18 +102,32 @@
   
   <url>
     <loc>http://wjlgmw.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2024-04-06</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wjlgmw.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2024-04-06</lastmod>
+    <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>http://wjlgmw.github.io/categories/%E5%89%8D%E7%AB%AFjs/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wjlgmw.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2024-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
