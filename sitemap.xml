@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wjlgmw.github.io/posts/b12a1160.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/posts/b12a1160.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/fcircle/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/posts/b9cfe67b.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/artitalk/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/posts/9520.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/about/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/fcircle/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/tags/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/artitalk/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/posts/b9cfe67b.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/about/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/music/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/tags/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/posts/9520.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/music/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/categories/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/categories/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/link/index.html</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/link/index.html</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/manifest.json</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/manifest.json</loc>
     
     <lastmod>2024-04-04</lastmod>
     
@@ -102,7 +102,7 @@
   
 
   <url>
-    <loc>http://wjlgmw.github.io/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -110,21 +110,21 @@
 
   
   <url>
-    <loc>http://wjlgmw.github.io/tags/Thymeleaf/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/tags/Thymeleaf/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -133,21 +133,21 @@
 
   
   <url>
-    <loc>http://wjlgmw.github.io/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/categories/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/categories/%E5%89%8D%E7%AB%AFjs/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wjlgmw.github.io/categories/%E5%89%8D%E7%AB%AFjs/</loc>
+    <loc>https://wjlgmw-github-io.vercel.app/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
