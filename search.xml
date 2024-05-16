@@ -133,7 +133,7 @@
       <link href="/posts/5c9976fc.html"/>
       <url>/posts/5c9976fc.html</url>
       
-        <content type="html"><![CDATA[<h1 id="分页查询相关bug"><a href="#分页查询相关bug" class="headerlink" title="分页查询相关bug"></a>分页查询相关bug</h1><p>1.错误：nested exception is org.apache.ibatis.binding.BindingException: Parameter ‘XXX’ not found<br>当我们使用mybatis传入多个参数时候，mybatis映射不到相应的实体<br>解决方式：处理方式是在对应的 mapper 文件中传入的参数前分别加上注解@Param<br>并在sql语句中将参数写进去<br>例如：当参数是被封装成一个对象的时候<br><img src="https://img.picgo.net/2024/04/25/3460052_D0WUDDX810QN12f0208c7f33434d6.png"><br>sql语句中<br><img src="https://img.picgo.net/2024/04/25/QQ202404250859078cbdf9090b3a807c.png"></p><p>2.错误：ERROR: operator does not exist: text == text<br>这个错误信息通常出现在使用SQL查询时，尝试比较两个文本类型（text）的字段。在SQL中，如果你直接使用等于操作符（==）来比较两个文本类型的值，会出现这样的错误<br>解决方式：1.使用=或!=操作符，这是标准的SQL操作符来比较文本字段<br>2.如果你使用的是PostgreSQL，并且需要进行更复杂的比较（例如大小写不敏感比较），可以使用ILIKE，LIKE操作符，或者~（正则表达式匹配）。<br>如下<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SELECT *</span><br><span class="line">FROM your_table</span><br><span class="line"><span class="type">WHERE</span> <span class="variable">field1</span> <span class="operator">=</span> field2;</span><br></pre></td></tr></table></figure></p><p>3.错误：java.lang.NoSuchMethodException: com.baomidou.mybatisplus.core.metadata.IPag<br>解决方式：<br><img src="https://img.picgo.net/2024/04/25/I4002X5_KO8SO_SDHG17dedaa7628da480.png"><br>注意resultType，如果是IPage那么会出错</p><p><img src="https://img.picgo.net/2024/04/25/QQ2024042509142819667f4a5ad91eea.png"><br>生成的方法类型要注意</p><p>4.错误：分页参数没有传进去，可能是mybatisplus分页插件没注入<br>解决方法<br><img src="https://img.picgo.net/2024/04/25/_ZCASJKO1WSVAM6Wae8fd832aceccd9b.png"></p><h1 id="Bean注入异常"><a href="#Bean注入异常" class="headerlink" title="Bean注入异常"></a>Bean注入异常</h1><p>报错：Consider defining a bean of type ‘com.bn.airportsimulation.services.RuleRunwayIntervalConfigService’ in your configuration.</p><p>解决方法检查自己的Bean是否注入，查service，mapper</p><h1 id="GetMapping与-RequestBody"><a href="#GetMapping与-RequestBody" class="headerlink" title="@GetMapping与@RequestBody"></a>@GetMapping与@RequestBody</h1><p>@GetMapping与@RequestBody不能一起使用，不然会导致前端传入数据有误</p><h1 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h1><p>hexo : 无法将“hexo”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。<br>在powershell中输入npm install -g hexo-cli # -g为全局安装 再装一遍（可能是因为换了node.js的版本，需要重新安装一下）</p><h1 id="SpringBootTest"><a href="#SpringBootTest" class="headerlink" title="SpringBootTest"></a>SpringBootTest</h1><p><img src="https://img.picgo.net/2024/05/07/F4_GIQSN97J_C4GKDO3Z9G3877016af2e4c251.png"><br>依赖没有注入，是因为springboot没有启动（因为springboot要与Test的下面的测试类要对应（老版本））[@Test引入的类错误]<br>可以采用@RunWith<br><img src="https://img.picgo.net/2024/05/07/CJRVRADSS6POVI8BY70Dc9e68e21849097dc.png"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="分页查询相关bug"><a href="#分页查询相关bug" class="headerlink" title="分页查询相关bug"></a>分页查询相关bug</h1><p>1.错误：nested exception is org.apache.ibatis.binding.BindingException: Parameter ‘XXX’ not found<br>当我们使用mybatis传入多个参数时候，mybatis映射不到相应的实体<br>解决方式：处理方式是在对应的 mapper 文件中传入的参数前分别加上注解@Param<br>并在sql语句中将参数写进去<br>例如：当参数是被封装成一个对象的时候<br><img src="https://img.picgo.net/2024/04/25/3460052_D0WUDDX810QN12f0208c7f33434d6.png"><br>sql语句中<br><img src="https://img.picgo.net/2024/04/25/QQ202404250859078cbdf9090b3a807c.png"></p><p>2.错误：ERROR: operator does not exist: text == text<br>这个错误信息通常出现在使用SQL查询时，尝试比较两个文本类型（text）的字段。在SQL中，如果你直接使用等于操作符（==）来比较两个文本类型的值，会出现这样的错误<br>解决方式：1.使用=或!=操作符，这是标准的SQL操作符来比较文本字段<br>2.如果你使用的是PostgreSQL，并且需要进行更复杂的比较（例如大小写不敏感比较），可以使用ILIKE，LIKE操作符，或者~（正则表达式匹配）。<br>如下<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SELECT *</span><br><span class="line">FROM your_table</span><br><span class="line"><span class="type">WHERE</span> <span class="variable">field1</span> <span class="operator">=</span> field2;</span><br></pre></td></tr></table></figure></p><p>3.错误：java.lang.NoSuchMethodException: com.baomidou.mybatisplus.core.metadata.IPag<br>解决方式：<br><img src="https://img.picgo.net/2024/04/25/I4002X5_KO8SO_SDHG17dedaa7628da480.png"><br>注意resultType，如果是IPage那么会出错</p><p><img src="https://img.picgo.net/2024/04/25/QQ2024042509142819667f4a5ad91eea.png"><br>生成的方法类型要注意</p><p>4.错误：分页参数没有传进去，可能是mybatisplus分页插件没注入<br>解决方法<br><img src="https://img.picgo.net/2024/04/25/_ZCASJKO1WSVAM6Wae8fd832aceccd9b.png"></p><h1 id="Bean注入异常"><a href="#Bean注入异常" class="headerlink" title="Bean注入异常"></a>Bean注入异常</h1><p>报错：Consider defining a bean of type ‘com.bn.airportsimulation.services.RuleRunwayIntervalConfigService’ in your configuration.</p><p>解决方法检查自己的Bean是否注入，查service，mapper</p><h1 id="GetMapping与-RequestBody"><a href="#GetMapping与-RequestBody" class="headerlink" title="@GetMapping与@RequestBody"></a>@GetMapping与@RequestBody</h1><p>@GetMapping与@RequestBody不能一起使用，不然会导致前端传入数据有误</p><h1 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h1><p>hexo : 无法将“hexo”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。<br>在powershell中输入npm install -g hexo-cli # -g为全局安装 再装一遍（可能是因为换了node.js的版本，需要重新安装一下）</p><h1 id="SpringBootTest"><a href="#SpringBootTest" class="headerlink" title="SpringBootTest"></a>SpringBootTest</h1><p><img src="https://img.picgo.net/2024/05/07/F4_GIQSN97J_C4GKDO3Z9G3877016af2e4c251.png"><br>依赖没有注入，是因为springboot没有启动（因为springboot要与Test的下面的测试类要对应（老版本））[@Test引入的类错误]<br>可以采用@RunWith<br><img src="https://img.picgo.net/2024/05/07/CJRVRADSS6POVI8BY70Dc9e68e21849097dc.png"></p><h1 id="cmd中无法执行jar包，没反应"><a href="#cmd中无法执行jar包，没反应" class="headerlink" title="cmd中无法执行jar包，没反应"></a>cmd中无法执行jar包，没反应</h1><p>在cmd中无法执行jar包<br>解决方案：我们可以在cmd输入java，java-version看看有没有反应，如果没有反应，则去电脑的环境变量里面去找<br>C:\Program Files\Common Files\Oracle\Java\javapath<br>然后删除javapath文件夹，之后再执行jar包的命令即可</p><h1 id="虚拟机ip地址总是改变的完美解决"><a href="#虚拟机ip地址总是改变的完美解决" class="headerlink" title="虚拟机ip地址总是改变的完美解决"></a>虚拟机ip地址总是改变的完美解决</h1><p>进入配置文件<br>vi /etc/sysconfig/network-scripts/ifcfg-ens33<br>修改成如下图所示，修改完成后 点击Esc 并输入:wq 进行保存退出<br><img src="https://img.picgo.net/2024/05/16/T4_NI6R78BEV2G9S8d99603f198e73d8.png"></p>]]></content>
       
       
       <categories>
@@ -1049,17 +1049,6 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/ali_font.js"/>
       <url>/js/ali_font.js</url>
@@ -1071,11 +1060,22 @@
     
     
     <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>音乐馆</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p>音乐太多，请稍等会，正在全力加载小界面</p>    <div id="aplayer-wTAFIwFA" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="440215021" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<p>音乐太多，请稍等会，正在全力加载小界面</p>    <div id="aplayer-YJvbSRPB" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="440215021" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
